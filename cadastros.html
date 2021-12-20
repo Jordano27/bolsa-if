@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cadastros</title>
+    <link rel="stylesheet" type="text/css" href="cadastros.css">
+    <link rel="stylesheet" type="text/css" href=".css">
+    
+	
+</head>
+<body>
+    <nav class="fund">		
+		
+		<label class="logo">Saapne</label>
+		<ul>
+			
+			<a href="login.html"><p >Login</p></a>
+		</ul>
+			
+			 <ul>
+				<div >
+					<input type="text" id="Pesquisar" class="pesq" placeholder=" Pesquisar"/>
+					 <label for="Pesquisar"></label>
+				 </div>
+		</ul>
+	
+	</nav>
+    <nav class="content">		
+		<ul class="container">
+			<p class="margem" style="position: relative;">Administração</p>
+			<a href="cadastros.html" ><p class="margem">Cadastros</p></a>
+			<a href="gerenciador.html"><p class="margem">Gerenciar CIF</p></a>
+			<p class="margem">Atendimento</p>
+			<a href="pei.html"><p class="margem">PEI</p></a>
+			<a href="assistencial.html"><p class="margem">Assistencial</p></a>
+			<a href="Avaliacao.html"><p class="margem">Avaliação</p></a>
+			
+		</ul>
+		
+	
+	</nav>
+    <section class="section-main">
+        <h1>Cadastrar PEI</h1>
+
+    <P>PNE</P>
+
+    <div class="pne" >
+
+        <input type="text" id="" placeholder="Cadastrar PNE" style=" width: 700px; padding: 8px; "/>
+		<label for="PNE"></label>
+
+    </div>
+    <p>Histórico Escolar</p>
+    <table  id="tabela" >
+        <tbody>
+            <tr>
+                <td>Idade</td>
+                <td>Ano</td>
+                <td>Serie-Escola</td>
+                <td>Atendimento Especializado ou Outras Observações</td>
+                <td> </td>
+            </tr>
+            <tr>
+                
+                   <td> <div class="Idade">
+
+                        <input type="text" id="" placeholder="Idade"/>
+                        <label for="Idade"></label>
+                
+                    </div></td>
+                
+               
+                    <td> <div class="Ano">
+
+                        <input type="text" id="" placeholder="Ano" style="margin-left: 15px;"/>
+                        <label for="Ano"></label>
+                
+                    </div></td>
+                
+                
+                   <td> <div class="Serie-Escola">
+
+                        <input type="text" id="" placeholder="Serie-Escola" style="margin-left: 15px;"/>
+                        <label for="Serie-Escola"></label>
+                
+                    </div></td>
+                
+                
+                   <td> <div class="Atendimento Especializado">
+
+                        <input type="text" id="" placeholder="Atendimento Especializado" style="margin-left: 15px; margin-right: 15px;"/>
+                        <label for="Atendimento Especializado"></label>
+                
+                    </div></td>
+                
+                     <td> <button  class="botao2" style="background-color: red; border-color: red; color: white; cursor: pointer;">Remover</button></td>
+                
+            </tr>
+        </tbody>
+    </table>
+    <br>
+    <button  class="botao" style="border-color: rgb(60, 218, 60); background-color: rgb(60, 218, 60); color: white; cursor: pointer;">Adicionar Linha</button>
+
+    <br><br>
+
+    <div class="Historico" style="float: left; margin-right: 15px;">
+        <p class=" titulo-c">Histórico</p>
+        <input type="text" id="" placeholder="" style="padding: 100px; "/>
+		<label for="Historico"></label>
+
+    </div>
+
+    <div class="Necessidade Educacional Específica"  >
+        <p class=" titulo-c"> Necessidade Educacional Específica</p>
+        <input type="text" id="" placeholder="" style="padding: 100px; "/>
+		<label for="Necessidade Educacional Específica"></label>
+
+    </div>
+    <div class="Conhecimentos">
+        <p class=" titulo-c">Conhecimentos, Habilidades, Capacidades, <br> Interesses, Necessidades</p>
+        <input type="text" id="" placeholder="" style="padding: 100px; "/>
+		<label for="Conhecimentos, Habilidades, Capacidades, Intereces, Necessidades"></label>
+
+    </div>
+
+   
+
+<p>Adequações pedagogicas das Atividades</p>
+
+    <div class="form-check" >
+        <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault1">
+        <label class="form-check-label" for="flexRadioDefault1">
+          Anexar
+        </label>
+      </div>
+      <div class="form-check" >
+        <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault2" checked>
+        <label class="form-check-label" for="flexRadioDefault2">
+          Preencher
+        </label>
+      </div>
+      <br>
+      <button class="botao" style="border-color: rgb(33, 162, 221); background-color: rgb(33, 162, 221); color: white; cursor: pointer;">Cadastrar</button>
+
+    </section>
+</body>
+</html>
