@@ -1,0 +1,17 @@
+body{
+    border-collapse: collapse;
+}
+#tabela{
+    border-collapse: collapse;
+    border-color: rgb(180, 175, 175);
+    width: 800px;
+}
+
+.botao{
+    padding: 7px;
+    border-radius: 5px;
+}
+.botao2{
+    padding: 5px;
+    border-radius: 5px;
+}
