@@ -1,0 +1,33 @@
+* {
+	padding: 0;
+	margin: 0;
+	text-decoration: none;
+	list-style: none;
+	box-sizing: border-box;
+	
+}
+
+body {
+	font-family: montserrat;
+}
+nav {
+	
+	height: 45px;
+	width: 100%;
+}
+label.logo {
+	color: white;
+	font-size: 25px;
+	line-height: 45px;
+	padding: 0 100px;
+	font-weight: bold;
+}
+nav ul {
+	float: right;
+
+	margin-right: 20px;
+}
+
+.fund{
+	background-color: rgb(41, 103, 153);
+	
