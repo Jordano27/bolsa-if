@@ -1,0 +1,908 @@
+  ABOUT:
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About</title>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins&family=Roboto:wght@400;500&display=swap" rel="stylesheet">
+   <link rel="stylesheet" href="about.css">
+   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.7.2/font/bootstrap-icons.css">
+   <link rel="stylesheet" href="nav.css">
+  
+    
+  </head>
+  <body>
+    <div class="about">
+    <nav class="nav">	
+    <img src="https://img.freepik.com/fotos-gratis/retrato-do-modelo-de-sorriso-bonito-do-homem-de-negocios-lumbersexual-do-moderno-a-moda-homem-vestido-com-roupas-de-jaqueta-jeans_158538-1737.jpg?size=626&ext=jpg" alt="" class="dois-imagem">
+    <h2 class="name-menu">Jodano Poletto</h2>
+    <div class="social-container">
+     <a class="social-button" href="#"><i class="bi bi-twitter"></i></a>
+     <a class="social-button" href="#"><i class="bi bi-instagram"></i></a>
+     <a class="social-button" href="#"><i class="bi bi-facebook"></i></a>
+     <a class="social-button" href="#"><i class="bi bi-skype"></i></a>
+     <a class="social-button" href="#"><i class="bi bi-linkedin"></i></a>
+    </div>
+    <ul class="container">
+     
+     <a href="home.html" ><p class="margem"><i class="bi bi-house-door"></i> Home</p></a>
+     <a href="about.html" ><p class="margem"><i class="bi bi-person"></i> About</p></a>
+     <a href="resume.html"><p class="margem"><i class="bi bi-file-earmark-text"></i> Resume</p></a>
+     <a href="Portifólio.html" ><p class="margem"><i class="bi bi-journals"></i> Portifólio</p></a>
+     <a href="services.html"><p class="margem"><i class="bi bi-hdd-stack"></i> Services</p></a>
+     <a href="contact.html"><p class="margem"><i class="bi bi-envelope"></i> Contact</p></a>
+     
+     
+    </ul>
+    
+    
+    </nav>
+    <div class="conteudo-geral">
+            <h1>About</h1>
+            <p>Lorem ipsum dolor sit amet. Aut minus error rem minima quisquam in itaque atque qui ipsum perferendis et inventore delectus ut ullam vero.  <br>Qui delectus
+            architecto et expedita quia sed saepe veniam quo voluptas voluptatem eos animi provident.</p>
+            <img class="meuso" src="https://img.freepik.com/fotos-gratis/retrato-do-modelo-de-sorriso-bonito-do-homem-de-negocios-lumbersexual-do-moderno-a-moda-homem-vestido-com-roupas-de-jaqueta-jeans_158538-1737.jpg?size=626&ext=jpg" alt="">
+        <div class="dados">
+            <h2 class="desg-about">Designer and Web Desenvolper</h2>
+            <p>Lorem ipsum dolor sit amet. Aut minus error rem minima quisquam in itaque 
+            atque qui ipsum perferendis et<br> inventore delectus ut ullam vero.</p>
+            
+                <table>
+                    <ul>
+                        <th>
+                            <td class="edit">>Birthday: 27 Oct 2005</td>
+                            <td class="edit">>Age:16</td>
+                        </th>
+                    </ul>
+                    
+                </table>
+                <table>
+                    <ul>
+                        <th>
+                            <td class="edit">>Web Site: www.example.com</td>
+                            <td class="edit">>Degree: Master</td>
+                        </th>
+                    </ul>
+                    
+                </table>
+                <table>
+                    <ul>
+                        <th>
+                            <td class="edit">>Phone:(54)99904-7760</td>
+                            <td class="edit">>Email:jordanopoletto@gmail.com</td>
+                        </th>
+                    </ul>
+                    
+                </table>
+                <table>
+                    <ul>
+                        <th>
+                            <td class="edit">>City: Bento Gonçalves-RS</td>
+                            <td class="edit">>Freelance: Avaliable</td>
+                        </th>
+                    </ul>
+                
+                </table>
+        </div>
+        <h2 class="kgt">Fact</h2>
+            <p class="espic">Lorem ipsum dolor sit amet. Aut minus error rem minima quisquam in itaque atque qui ipsum perferendis et inventore delectus ut ullam vero.  <br>Qui delectus
+            architecto et expedita quia sed saepe veniam quo voluptas voluptatem eos animi provident.</p>
+      </div>
+</div>
+</body>
+</html>
+body {
+    font-family: 'Roboto';
+}
+
+.about {
+	display: flex;
+}
+
+.meuso{
+    width: 60vh;
+	float: left;
+	margin-right: 10px;
+}
+.edit{
+    margin-right: 10px;
+}
+.dois-imagem{
+    margin-left: 10px;
+    margin: 10px;
+    width: 80%;
+    height: auto;
+    border-radius: 50%;
+    box-sizing: border-box;
+}
+.container {
+	float: left;
+	margin-left: 20px;
+	box-sizing: border-box;
+    margin-top: 40px;
+}
+
+
+.espic{
+    text-decoration: none;
+	margin-right: 10px;
+	font-size: small;
+	color: rgb(26, 22, 22);
+	margin-top: 15px;
+	font-size: 100%;
+
+}
+.name-menu{
+    margin-left: 20px;
+    color: white;
+}
+.conteudo-geral{
+    margin-left: 60px;
+}
+.kgt{
+    margin-top: 40px;
+    margin-left: 0;
+}
+
+HOME:
+
+<!DOCTYPE html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Home</title>
+		<link href="https://fonts.googleapis.com/css2?family=Poppins&family=Roboto:wght@400;500&display=swap" rel="stylesheet">
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.7.2/font/bootstrap-icons.css"
+    />
+    <link rel="stylesheet" href="ati.css" />
+		<link rel="stylesheet" href="nav.css">
+  </head>
+  <body>
+    <h1>Jodano Poletto</h1>
+    <nav class="nav">
+      <img
+        src="https://img.freepik.com/fotos-gratis/retrato-do-modelo-de-sorriso-bonito-do-homem-de-negocios-lumbersexual-do-moderno-a-moda-homem-vestido-com-roupas-de-jaqueta-jeans_158538-1737.jpg?size=626&ext=jpg"
+        alt=""
+      />
+      <h2>Jodano Poletto</h2>
+      <div class="social-container">
+        <a class="social-button" href="#"><i class="bi bi-twitter"></i></a>
+        <a class="social-button" href="https://www.instagram.com/jordanopoletto/"
+          ><i class="bi bi-instagram"></i
+        ></a>
+        <a class="social-button" href="#"><i class="bi bi-facebook"></i></a>
+        <a class="social-button" href="#"><i class="bi bi-skype"></i></a>
+        <a class="social-button" href="#"><i class="bi bi-linkedin"></i></a>
+      </div>
+      <ul class="container">
+        <a href="home.html"
+          ><p class="margem"><i class="bi bi-house-door"></i> Home</p></a
+        >
+        <a href="about.html"
+          ><p class="margem"><i class="bi bi-person"></i> About</p></a
+        >
+        <a href="resume.html"
+          ><p class="margem"><i class="bi bi-file-earmark-text"></i> Resume</p></a
+        >
+        <a href="Portifólio.html"
+          ><p class="margem"><i class="bi bi-journals"></i> Portifólio</p></a
+        >
+        <a href="services.html"
+          ><p class="margem"><i class="bi bi-hdd-stack"></i> Services</p></a
+        >
+        <a href="contact.html"
+          ><p class="margem"><i class="bi bi-envelope"></i> Contact</p></a
+        >
+      </ul>
+    </nav>
+  </body>
+</html>
+body{
+    background-image: url(https://img.freepik.com/fotos-gratis/retrato-do-modelo-de-sorriso-bonito-do-homem-de-negocios-lumbersexual-do-moderno-a-moda-homem-vestido-com-roupas-de-jaqueta-jeans_158538-1737.jpg?size=626&ext=jpg) ;
+    background-size: 100%;
+    font-family: 'Roboto';
+}
+h1{
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    font-size: 50px ;
+    
+}
+
+.container {
+	float: left;
+	margin-left: 20px;
+	box-sizing: border-box;
+    margin-top: 40px;
+}
+
+
+
+img {
+    margin-left: 10px;
+    margin: 10px;
+    width: 80%;
+    height: auto;
+    border-radius: 50%;
+    box-sizing: border-box;
+}
+h2{
+    margin-left: 20px;
+    color: white;
+}
+
+RESUME:
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Resumo</title>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins&family=Roboto:wght@400;500&display=swap" rel="stylesheet">
+    <link
+    rel="stylesheet"
+    href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.7.2/font/bootstrap-icons.css"
+  />
+    <link rel="stylesheet" href="nav.css">
+    <link rel="stylesheet" href="resume.css">
+</head>
+<body>
+    <nav class="nav">
+        <img
+          src="https://img.freepik.com/fotos-gratis/retrato-do-modelo-de-sorriso-bonito-do-homem-de-negocios-lumbersexual-do-moderno-a-moda-homem-vestido-com-roupas-de-jaqueta-jeans_158538-1737.jpg?size=626&ext=jpg"
+          alt=""
+        />
+        <h2>Jodano Poletto</h2>
+        <div class="social-container">
+          <a class="social-button" href="#"><i class="bi bi-twitter"></i></a>
+          <a class="social-button" href="https://www.instagram.com/jordanopoletto/"
+            ><i class="bi bi-instagram"></i
+          ></a>
+          <a class="social-button" href="#"><i class="bi bi-facebook"></i></a>
+          <a class="social-button" href="#"><i class="bi bi-skype"></i></a>
+          <a class="social-button" href="#"><i class="bi bi-linkedin"></i></a>
+        </div>
+        <ul class="container">
+          <a href="home.html"
+            ><p class="margem"><i class="bi bi-house-door"></i> Home</p></a
+          >
+          <a href="about.html"
+            ><p class="margem"><i class="bi bi-person"></i> About</p></a
+          >
+          <a href="resume.html"
+            ><p class="margem"><i class="bi bi-file-earmark-text"></i> Resume</p></a
+          >
+          <a href="Portifólio.html"
+            ><p class="margem"><i class="bi bi-journals"></i> Portifólio</p></a
+          >
+          <a href="services.html"
+            ><p class="margem"><i class="bi bi-hdd-stack"></i> Services</p></a
+          >
+          <a href="contact.html"
+            ><p class="margem"><i class="bi bi-envelope"></i> Contact</p></a
+          >
+        </ul>
+      </nav>
+    <h1>Resume</h1>
+    <p>Lorem ipsum dolor sit amet. Aut minus error rem minima quisquam in itaque atque qui ipsum perferendis et inventore delectus ut ullam vero.  <br>Qui delectus
+     architecto et expedita quia sed saepe veniam quo voluptas voluptatem eos animi provident.</p>
+     
+     <div class="resume-container">
+       <div class="resume-info">
+         <h3>Sumary</h3>
+         <div class="resume-description">
+           <h4>Jordano</h4>
+           <p>Lorem ipsum dolor sit amet. Aut minus error rem minima quisquam in <br> itaque atque qui ipsum perferendis et inventore delectus ut ullam vero.</p>
+           <ul>
+             <li>Portland 127</li>
+             <li>123 456 789</li>
+             <li>example@gmail.com</li>
+           </ul>
+         </div>
+       </div>
+       <div class="resume-info">
+         <h3>Experiencia profissional</h3>
+         <div class="resume-description">
+           <h4 > senior graphic design specialist</h4>
+           <h5>2021-present</h5>
+           <p>Experion, New York, NY.</p>
+           <ul>
+           
+             <li>Lorem ipsum dolor sit amet. Aut minus error rem minima quisquam in itaque atque qui ipsum perferendis</li>
+             <li>itaque atque qui ipsum perferendis et inventore delectus ut ullam vero.</li>
+             <li>Aut minus error rem minima quisquam in itaque atque qui ipsum perferendis et inventore</li>
+           </ul>
+           <h4 >graphic design specialist</h4>
+           <h5>2018-2019</h5>
+           <p>stepping stone adversiteng, New York, NY.</p>
+           <ul>
+           
+             <li>Lorem ipsum dolor sit amet. Aut minus error rem minima quisquam in itaque atque qui ipsum perferendis</li>
+             <li>itaque atque qui ipsum perferendis et inventore delectus ut ullam vero.</li>
+             <li>Aut minus error rem minima quisquam in itaque atque qui ipsum perferendis et inventore</li>
+           </ul>
+       </div>
+       <div>
+         <h3>Education</h3>
+         <h4  >master of fine arts & graphic design</h4>                
+         <h5 >2020-2021</h5>
+         <p >Lorem ipsum dolor sit amet. Aut minus error rem minima quisquam <br> in itaque atque qui ipsum perferendis</p>
+         <h4 >bachelor of fine arts & graphic design</h4>
+         <h5 >2022-2023</h5>
+         <p>Lorem ipsum dolor sit amet. Aut minus error rem minima quisquam <br> in itaque atque qui ipsum perferendis</p>
+       </div>
+     </div>
+</body>
+</html>
+h2{
+  margin-left: 20px;
+  color: white;
+}
+
+nav{
+  margin-right: 20px;
+  top: 0;
+}
+
+.margem{
+	margin-left: 0;
+	margin-bottom: 0 ;
+	margin-top: 15px;
+}
+
+
+.resume-info {
+  width: 80%;
+  float: left;
+}
+
+
+h4 {
+  font-size: 16px;
+}
+
+li {
+  margin-top: 10px;
+}
+.social-container{
+  margin-bottom: 60px;
+  
+}
+.container{
+  margin-left: 20px;
+}
+.foto{
+  width: 200px;
+  float: left;
+}
+.educacao{
+  margin-left: 190px;
+}
+
+PORTIFOLIO:
+<!DOCTYPE html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <title>Portifólio</title>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins&family=Roboto:wght@400;500&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.7.2/font/bootstrap-icons.css"
+    />
+    <link rel="stylesheet" href="port.css" />
+    <link rel="stylesheet" href="nav.css" />
+  </head>
+  <body>
+    <nav class="nav">
+      <img
+        src="https://img.freepik.com/fotos-gratis/retrato-do-modelo-de-sorriso-bonito-do-homem-de-negocios-lumbersexual-do-moderno-a-moda-homem-vestido-com-roupas-de-jaqueta-jeans_158538-1737.jpg?size=626&ext=jpg"
+        alt=""
+        class="foto-perfil"
+      />
+      <h2>Jodano Poletto</h2>
+      <div class="social-container">
+        <a class="social-button" href="#"><i class="bi bi-twitter"></i></a>
+        <a class="social-button" href="#"><i class="bi bi-instagram"></i></a>
+        <a class="social-button" href="#"><i class="bi bi-facebook"></i></a>
+        <a class="social-button" href="#"><i class="bi bi-skype"></i></a>
+        <a class="social-button" href="#"><i class="bi bi-linkedin"></i></a>
+      </div>
+      <ul class="container">
+        <a href="home.html"
+          ><p class="margem"><i class="bi bi-house-door"></i> Home</p></a
+        >
+        <a href="about.html"
+          ><p class="margem"><i class="bi bi-person"></i> About</p></a
+        >
+        <a href="resume.html"
+          ><p class="margem"><i class="bi bi-file-earmark-text"></i> Resume</p></a
+        >
+        <a href="Portifólio.html"
+          ><p class="margem"><i class="bi bi-journals"></i> Portifólio</p></a
+        >
+        <a href="services.html"
+          ><p class="margem"><i class="bi bi-hdd-stack"></i> Services</p></a
+        >
+        <a href="contact.html"
+          ><p class="margem"><i class="bi bi-envelope"></i> Contact</p></a
+        >
+      </ul>
+    </nav>
+    <h1 class="title-fac">Fact</h1>
+
+    <p class="paragraf-fact">
+      Lorem ipsum dolor sit amet. Aut minus error rem minima quisquam in itaque atque qui ipsum
+      perferendis et inventore delectus ut ullam vero. <br />Qui delectus architecto et expedita
+      quia sed saepe veniam quo voluptas voluptatem eos animi provident.
+    </p>
+
+    <div class="btn-group" role="group" aria-label="Basic example">
+      <button type="button" class="btn btn-primary">Left</button>
+      <button type="button" class="btn btn-primary">Middle</button>
+      <button type="button" class="btn btn-primary">Right</button>
+    </div>
+    <div class="images">
+      <img
+        src="https://neilpatel.com/wp-content/uploads/2019/08/fotos-de-paisagem-para-instagram.jpeg"
+        alt=""
+        class="imagens-ps"
+      />
+      <img
+        src="https://maladeaventuras.com/wp-content/uploads/2020/07/onde-tirar-fotos-torre-eiffel.jpg"
+        alt=""
+        class="imagens-p"
+      />
+      <img
+        src="https://blog.fotoregistro.com.br/wp-content/uploads/2020/01/tirar-fotos-sozinha.jpg"
+        alt=""
+        class="imagens-p"
+      />
+      <img
+        src="https://www.oficinadanet.com.br/imagens/post/23912/visualizadores-de-fotos.jpg"
+        alt=""
+        class="imagens-p"
+      />
+      <img
+        src="https://www.viajali.com.br/wp-content/uploads/2019/05/fotos-de-paris-54.jpg"
+        alt=""
+        class="imagens-p"
+      />
+      <img
+        src="https://media.istockphoto.com/photos/honduras-flag-in-tegucigalpa-picture-id1219020386?k=20&m=1219020386&s=612x612&w=0&h=LniCjD_peAeFZyp6V1BrjBtwGWOcVA9WEoqBsMDgbxQ="
+        alt=""
+        class="imagens-p"
+      />
+    </div>
+  </body>
+</html>
+.imagens-p{
+    width: 300px;
+    margin-right: 10px;
+    left: 50px;
+}
+
+.margem{
+	margin-left: 0;
+	margin-bottom: 0 ;
+	margin-top: 15px;
+}
+.container {
+	float: left;
+	margin-left: 20px;
+	box-sizing: border-box;
+    margin-top: 40px;
+}
+
+
+a:visited {
+	color: white;
+}
+
+
+.foto-perfil {
+    margin-left: 10px;
+    margin: 10px;
+    width: 80%;
+    height: auto;
+    border-radius: 50%;
+    box-sizing: border-box;
+}
+h2{
+    margin-left: 20px;
+    color: white;
+}
+nav{
+    margin-right: 20px;
+    top: 0;
+}
+.imagens-ps{
+    width: 300px;
+    margin-right: 10px;
+    left: 50px;
+}
+.title-fac{
+margin-left: 220px;
+}
+.paragraf-fact{
+    margin-left: 220px;
+}
+.btn-group{
+    margin-left: 220px;
+}
+
+.images {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+
+SERVICES:
+
+<!DOCTYPE html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Serviços</title>
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.7.2/font/bootstrap-icons.css"
+    />
+    <link rel="stylesheet" href="services.css" />
+		<link rel="stylesheet" href="nav.css">
+		<link href="https://fonts.googleapis.com/css2?family=Poppins&family=Roboto:wght@400;500&display=swap" rel="stylesheet">
+  </head>
+  <body>
+		<div class="container">
+			<nav class="nav">
+				<img
+					src="https://img.freepik.com/fotos-gratis/retrato-do-modelo-de-sorriso-bonito-do-homem-de-negocios-lumbersexual-do-moderno-a-moda-homem-vestido-com-roupas-de-jaqueta-jeans_158538-1737.jpg?size=626&ext=jpg"
+					alt=""
+				/>
+				<h2>Jodano Poletto</h2>
+				<div class="social-container">
+					<a class="social-button" href="#"><i class="bi bi-twitter"></i></a>
+					<a class="social-button" href="https://www.instagram.com/jordanopoletto/"
+						><i class="bi bi-instagram"></i
+					></a>
+					<a class="social-button" href="#"><i class="bi bi-facebook"></i></a>
+					<a class="social-button" href="#"><i class="bi bi-skype"></i></a>
+					<a class="social-button" href="#"><i class="bi bi-linkedin"></i></a>
+				</div>
+				<ul class="container">
+					<a href="home.html"
+						><p class="margem"><i class="bi bi-house-door"></i> Home</p></a
+					>
+					<a href="about.html"
+						><p class="margem"><i class="bi bi-person"></i> About</p></a
+					>
+					<a href="resume.html"
+						><p class="margem"><i class="bi bi-file-earmark-text"></i> Resume</p></a
+					>
+					<a href="Portifólio.html"
+						><p class="margem"><i class="bi bi-journals"></i> Portifólio</p></a
+					>
+					<a href="services.html"
+						><p class="margem"><i class="bi bi-hdd-stack"></i> Services</p></a
+					>
+					<a href="contact.html"
+						><p class="margem"><i class="bi bi-envelope"></i> Contact</p></a
+					>
+				</ul>
+			</nav>
+
+			<h1 class="senses">services</h1>
+			<p class="senses">
+				
+				Lorem ipsum dolor sit amet. Aut minus error rem minima quisquam in itaque atque qui ipsum
+				perferendis et inventore delectus ut ullam vero. <br />Qui delectus architecto et expedita
+				quia sed saepe veniam quo voluptas voluptatem eos animi provident.
+			</p>
+	
+			<div class="service">
+				<h3 class="impim">services</h3>
+				<p class="impim">
+					<a class="social-cont" href="#"><i class="bi bi-card-text"></i></a>
+					Lorem ipsum dolor sit amet. Aut minus error rem minima quisquam in <br />
+					itaque atque qui ipsum perferendis et inventore delectus ut u
+				</p>
+			</div>
+			<div class="service">
+				<h3 class="impim">services</h3>
+				<p class="impim">
+					<a class="social-cont" href="#"><i class="bi bi-bar-chart-fill"></i></a>
+					Lorem ipsum dolor sit amet. Aut minus error rem minima quisquam in <br />
+					itaque atque qui ipsum perferendis et inventore delectus ut u
+				</p>
+			</div>
+			<div class="service">
+				<h3 class="impim">services</h3>
+				<p class="impim">
+					<a class="social-cont" href="#"><i class="bi bi-binoculars"></i></a>
+					Lorem ipsum dolor sit amet. Aut minus error rem minima quisquam in <br />
+					itaque atque qui ipsum perferendis et inventore delectus ut u
+				</p>
+			</div>
+			<div class="service">
+				<h3 class="impim">services</h3>
+				<p class="impim">
+					<a class="social-cont" href="#"><i class="bi bi-brightness-high-fill"></i></a>
+					Lorem ipsum dolor sit amet. Aut minus error rem minima quisquam in <br />
+					itaque atque qui ipsum perferendis et inventore delectus ut u
+				</p>
+			</div>
+			<div class="service">
+				<h3 class="impim">services</h3>
+			<p class="impim">
+				<a class="social-cont" href="#"><i class="bi bi-envelope"></i></a>
+				Lorem ipsum dolor sit amet. Aut minus error rem minima quisquam in <br />
+				itaque atque qui ipsum perferendis et inventore delectus ut u
+			</p>
+			</div>
+	
+		</div>
+  </body>
+</html>
+
+
+a:visited {
+	color: white;
+}
+
+img {
+    margin-left: 10px;
+    margin: 10px;
+    width: 80%;
+    height: auto;
+    border-radius: 50%;
+    box-sizing: border-box;
+}
+h2{
+    margin-left: 20px;
+    color: white;
+}
+.social-cont{
+    background-color: rgb(29, 151, 221);
+    color: white;
+    padding: 5px;
+    border-radius: 50px;
+}
+
+.service {
+    margin-right: 80px;
+}
+
+CONTACT:
+<!DOCTYPE html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Contato</title>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins&family=Roboto:wght@400;500&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3"
+      crossorigin="anonymous"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.7.2/font/bootstrap-icons.css"
+    />
+    <link rel="stylesheet" href="contact.css" />
+    <link rel="stylesheet" href="nav.css" />
+  </head>
+  <body>
+    <nav class="nav">
+      <img
+        src="https://img.freepik.com/fotos-gratis/retrato-do-modelo-de-sorriso-bonito-do-homem-de-negocios-lumbersexual-do-moderno-a-moda-homem-vestido-com-roupas-de-jaqueta-jeans_158538-1737.jpg?size=626&ext=jpg"
+        alt=""
+      />
+      <h2 class="nomee">Jodano Poletto</h2>
+      <div class="social-container">
+        <a class="social-button" href="#"><i class="bi bi-twitter"></i></a>
+        <a class="social-button" href="#"><i class="bi bi-instagram"></i></a>
+        <a class="social-button" href="#"><i class="bi bi-facebook"></i></a>
+        <a class="social-button" href="#"><i class="bi bi-skype"></i></a>
+        <a class="social-button" href="#"><i class="bi bi-linkedin"></i></a>
+      </div>
+      
+      
+      <ul class="container">
+        <a href="home.html"
+          ><p class="margem"><i class="bi bi-house-door"></i> Home</p></a
+        >
+        <a href="about.html"
+          ><p class="margem"><i class="bi bi-person"></i> About</p></a
+        >
+        <a href="resume.html"
+          ><p class="margem"><i class="bi bi-file-earmark-text"></i> Resume</p></a
+        >
+        <a href="Portifólio.html"
+          ><p class="margem"><i class="bi bi-journals"></i> Portifólio</p></a
+        >
+        <a href="services.html"
+          ><p class="margem"><i class="bi bi-hdd-stack"></i> Services</p></a
+        >
+        <a href="contact.html"
+          ><p class="margem"><i class="bi bi-envelope"></i> Contact</p></a
+        >
+      </ul>
+    </nav>
+
+    
+   
+    <div class="geral-dados">
+      <form name="Formulário" action="/salvar.php" method="POST"></form>
+
+      <label for="nome" class="labelinput">Nome Completo:</label>
+      <input type="text" id="name" name="name" placeholder="Digite seu nome" />
+
+        <label for="email" class="labelinput">Email:</label>
+        <input type="text" name="email" id="email" class="inputUser" placeholder="Email" required />
+
+      <label for="email" class="labelinput">subject</label>
+      <input type="text" name="email" id="subject" class="inputUser" placeholder="Subject" required />
+
+      <label for="email" class="labelinput">Mensagem</label>
+      <input type="text" name="email" id="mensager" class="inputUser" placeholder="Mensagem" required />
+      
+      
+      
+
+      <button id="submit">Send Mensager</button>
+    </div>
+  </body>
+</html>
+h1 {
+  position: absolute;
+  left: 50%;
+  font-size: 50px;
+}
+.margem {
+  margin-left: 0;
+  margin-bottom: 0;
+  margin-top: 15px;
+}
+.content {
+  float: left;
+  background-color: rgb(22, 22, 22);
+  width: 15%;
+  height: 99vh;
+  box-sizing: border-box;
+  margin-top: 0;
+}
+.container {
+  float: left;
+  margin-left: 20px;
+  box-sizing: border-box;
+}
+p {
+  text-decoration: none;
+  margin-right: 10px;
+  font-family: "Times New Roman";
+  font-size: small;
+  color: white;
+  margin-top: 15px;
+  font-size: 100%;
+}
+
+a:visited {
+  color: white;
+}
+
+.social-button {
+  background-color: #292828;
+  color: white;
+  padding: 5px;
+  border-radius: 50px;
+}
+
+img {
+  margin-left: 10px;
+  width: 80%;
+  height: auto;
+  border-radius: 50%;
+  box-sizing: border-box;
+}
+h2 {
+  font-size: 18px;
+  margin-left: 20px;
+  color: white;
+}
+
+#flutue {
+  float: left;
+}
+#submit {
+  margin-left: 20px;
+  border-radius: 5px;
+  width: 200px;
+  height: 40px;
+  color: white;
+  border-color: rgb(36, 152, 230);
+  background-color: rgb(36, 152, 230);
+}
+
+.geral-dados {
+  display: flex;
+  flex-direction: column;
+  width: 20%;
+  padding: 10px;
+  justify-content: center;
+  gap: 12px;
+  margin: auto;
+}
+
+CSS NAV:
+body{
+  font-family: 'Roboto';
+}
+
+a {
+  text-decoration: none;
+}
+p{
+margin-right: 10px;
+font-size: small;
+margin-top: 15px;
+font-size: 100%;
+}
+
+a:visited {
+color: white;
+}
+
+.social-container {
+  margin-top: 20px;
+  margin-left: 20px;
+
+}
+
+.social-button {
+  background-color: #292828;
+  color: white;
+  padding: 5px;
+  border-radius: 50px;
+}
+
+.margem{
+	margin-top: 15px;
+}
+
+.nav{
+	float: left;
+	background-color: rgb(22, 22, 22);
+	width: 15%;
+	height: 99vh;
+	box-sizing: border-box;
+    margin-top: 0;
+}	
+
+.nav img {
+    width: 100px;
+    height: 100px;
+    margin-left: 40px;
+    border-radius: 50%;
+}
